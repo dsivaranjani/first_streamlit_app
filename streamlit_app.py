@@ -32,7 +32,7 @@ try:
     streamlit.dataframe(get_fruitvice_data(fruit_choice))
 except URLError as e:
   streamlit.error()
-streamlit.stop()
+
 
 #getting fruits list from snowflake and displaying on click of the button
 streamlit.header("The fruit load list contains:")
